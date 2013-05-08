@@ -6,7 +6,6 @@ import java.awt.event.*;
 
 public class _371_SimpleGUI3C implements ActionListener {
     // Heads Up Java p371
-    //WIP once clicked
     JFrame frame;
 
     public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class _371_SimpleGUI3C implements ActionListener {
         gui.go();
     }
     public void go() {
-        JFrame frame = new JFrame();
+        frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JButton button = new JButton("Click me!");
